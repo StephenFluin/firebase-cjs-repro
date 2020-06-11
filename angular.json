@@ -121,8 +121,16 @@
               "devServerTarget": "firebase-error-repro:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "firebase-error-repro"
+    }
+  },
+  "defaultProject": "firebase-error-repro",
+  "cli": {
+    "analytics": "4dfbece0-2af7-44d1-91c4-bbb7308868b2"
+  }
 }

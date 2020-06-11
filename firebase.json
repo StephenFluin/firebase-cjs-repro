@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "firebase-error-repro",
+      "public": "dist/firebase-error-repro",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

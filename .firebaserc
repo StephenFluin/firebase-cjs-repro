@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "sunstar-views": {
+      "hosting": {
+        "firebase-error-repro": [
+          "sunstar-views"
+        ]
+      }
+    }
+  }
+}
